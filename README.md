@@ -9,7 +9,7 @@ Simulation is the use of one system to imitate the behavior of another system. A
 3. A random number of planes arrive in each time unit.
 4. A plane waiting to land goes before one waiting to take off.
 5. The planes that are waiting are kept in queues landing and takeoff, both of which have a strictly limited size.
-6. 
+ 
 ## Requirements
 1. Combine all the functions and methods for the airport simulation into a com-plete program. Experiment with several sample runs of the airport simulation, adjusting the values for the expected numbers of planes ready to land and take off. Find approximate values for these expected numbers that are as large as possible subject to the condition that it is very unlikely that a plane must be refused service. What happens to these values if the maximum size of the queues is increased or decreased? 
 2. Modify the simulation to give the airport two runways, one always used for landings and one always used for takeoffs. Compare the total number of planes that can be served with the number for the one-runway airport. Does it more than double? 
@@ -25,11 +25,11 @@ This project using meson to build, so you have to download and install it to you
 ``` cli
 meson setup builddir //  Initialize the build
 cd builddir // Move to build dirrectory
-ninja && ./demo
+ninja && ./demo // Run built
 ```
 
 ### Change name of built
 Change this code in meson.build for changing the name.
 
 ## Issues
-[- In Program 5, if there are 2 planes which have low fuel - equal to 1 unit, the program keeps running because the requirement did not include consequence for that scenario. -]
+- In Program 5, if there are 2 planes which have low fuel - equal to 1 unit, the program keeps running because the requirement did not include consequence for that scenario.
