@@ -1,6 +1,6 @@
 # Queue-Runways 🛫🛬
 - This is a repository for airport simulation using Queues data structure.
-- The source code is done for 5G00DM61-3003 Programming Languages 3.
+- The source code was made for 5G00DM61-3003 Programming Languages 3.
 
 ## Concept
 Simulation is the use of one system to imitate the behavior of another system. A computer simulation is a program to imitate the behavior of the system under study.
